@@ -47,6 +47,17 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
 Password:
 ==> This script will install:
 /usr/local/bin/brew
+…（略）…
+```
+<details>
+<summary>全ログ</summary>
+
+```
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+==> Checking for `sudo` access (which may request your password)...
+Password:
+==> This script will install:
+/usr/local/bin/brew
 /usr/local/share/doc/homebrew
 /usr/local/share/man/man1/brew.1
 /usr/local/share/zsh/site-functions/_brew
@@ -401,6 +412,8 @@ No analytics data has been sent yet (nor will any be during this install run).
     https://docs.brew.sh
 ```
 
+</details>
+
 - brewがインストールされたことを確認
   - `$ brew --version`
 ```
@@ -419,7 +432,15 @@ $ which git
 
 - Xcode経由の場合、最新バージョンより遅れることがあるので、brew経由でgitをインストールし、今後管理していくことにする
   - `$ brew install git`
-    
+```
+$ brew install git
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.21
+######################################################################## 100.0%
+…（略）…
+```
+<details>
+<summary>全ログ</summary>
+
 ```
 $ brew install git
 ==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.21
@@ -471,6 +492,8 @@ zsh completions and functions have been installed to:
 Emacs Lisp files have been installed to:
   /usr/local/share/emacs/site-lisp/git
 ```
+
+</details>
 
 - インストールされたか確認
   - brew経由で入れる前のgitと同じバージョンだった

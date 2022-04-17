@@ -33,7 +33,7 @@ xcode-select: note: no developer tools were found at '/Applications/Xcode.app', 
 ```
 
 - Homebrewのインストール
-Gitの[公式サイト](http://git-scm.com/download/mac)にあったHomebrewを使ったGitを管理したかったのでまずはHomebrewをインストールする（XCodeもHowmebrewインストールのときに合わせて入る）
+Gitの[公式サイト](http://git-scm.com/download/mac)にあったHomebrewを使ったGitを管理したかったのでまずはHomebrewをインストールする（XcodeもHowmebrewインストールのときに合わせて入る）
   - brewが入っていないことを為確認
 ```
 $ brew --version
@@ -502,7 +502,7 @@ $ git --version
 git version 2.32.0 (Apple Git-132)
 ```
 - gitのパスを調べる
-  - 現在参照しているGitの場所は、XCode経由で入れたものの方だった
+  - 現在参照しているGitの場所は、Xcode経由で入れたものの方だった
 ```
 $ which git
 /usr/bin/git

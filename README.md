@@ -631,7 +631,8 @@ alias.co=checkout
 - 個人アクセストークンを設定
   - https://docs.github.com/ja/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
   - コマンドラインからレポジトリにアクセスしたいだけなのでトークンに付与するスコープは`repo`にチェックを入れる
-
+![repo_new.png](images/repo_new.png)
+![repo_created.png](images/repo_created.png)
 
 ### ローカル側で行う
 ローカルレポジトリの作成
@@ -773,4 +774,4 @@ To https://github.com/ksbmyk/mau-j2n.git
 ```
 - GitHub側を確認
    - github.coom/ksbmyk/mau-j2n へアクセスしてREADMEが表示されていることを確認
-
+![readme_upload.png](images/readme_upload.png)

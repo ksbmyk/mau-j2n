@@ -1,4 +1,4 @@
-# gitとは
+# Gitとは
 Gitとは分散型バージョン管理システムである。
 バージョン管理とは、一つのファイルやファイルの集合に対しての変更を記録するシステムである。
 記録すると、過去の変更履歴の比較や、最後に修正された時期の確認などできるため、問題が起きた場合に調査がしやすかったり、特定バージョンを呼び出すことができるので、もしも以前の状態に戻したかったり、ファイルを失ったりしても、その状態が簡単に復元できる点が便利である。
@@ -21,10 +21,10 @@ Markdownの便利な点は、手軽に文章構造(見出し、段落、強調�
 例えば見出しは行頭に#をつける(#の数を増やすと中見出し、小見出しとなる)。段落は 空行で一行空ける 強調したい文字は**で囲む。箇条書きは行頭に `-` をつけるといったルールである。
 Markdown自身は限られた記法しかないため、様々な拡張記法(方言)がある。例えばGitHubで採用されているGitHub Flavored Markdown は、`~~文字列~~` で打ち消し線~~文字列~~、リンク形式の文字列を`[文字列](URL)` と記述しなくても自動的にリンクにする https://github.co.jp 等がある。
 
-# gitの準備
+# Gitの準備
 2022/04/07実施
 ## 前準備
--  作業PCにgitが入っているかを確認
+-  作業PCにGitが入っているかを確認
   - `$ git --version`
     - Xcodeのインストールを求められた
 ```
@@ -33,7 +33,7 @@ xcode-select: note: no developer tools were found at '/Applications/Xcode.app', 
 ```
 
 - Homebrewのインストール
-Gitの[公式サイト](http://git-scm.com/download/mac)にあったHomebrewを使ったgitを管理したかったのでまずはHomebrewをインストールする（XCodeもHowmebrewインストールのときに合わせて入る）
+Gitの[公式サイト](http://git-scm.com/download/mac)にあったHomebrewを使ったGitを管理したかったのでまずはHomebrewをインストールする（XCodeもHowmebrewインストールのときに合わせて入る）
   - brewが入っていないことを為確認
 ```
 $ brew --version
@@ -422,7 +422,7 @@ Homebrew 3.4.5
 Homebrew/homebrew-core (git revision 6d19941f7a1; last commit 2022-04-06)
 ```
 
-- Homebrewを入れたときにXCodeも入ったのでgitが使える状態となった
+- Homebrewを入れたときにXCodeも入ったのでGitが使える状態となった
 ```
 $ git --version
 git version 2.32.0 (Apple Git-132)
@@ -430,7 +430,7 @@ $ which git
 /usr/bin/git
 ```
 
-- Xcode経由の場合、最新バージョンより遅れることがあるので、brew経由でgitをインストールし、今後管理していくことにする
+- Xcode経由の場合、最新バージョンより遅れることがあるので、brew経由でGitをインストールし、今後管理していくことにする
   - `$ brew install git`
 ```
 $ brew install git
@@ -496,19 +496,19 @@ Emacs Lisp files have been installed to:
 </details>
 
 - インストールされたか確認
-  - brew経由で入れる前のgitと同じバージョンだった
+  - brew経由で入れる前のGitと同じバージョンだった
 ```
 $ git --version
 git version 2.32.0 (Apple Git-132)
 ```
 - gitのパスを調べる
-  - 現在参照しているgitの場所は、XCode経由で入れたものの方だった
+  - 現在参照しているGitの場所は、XCode経由で入れたものの方だった
 ```
 $ which git
 /usr/bin/git
 ```
 
-- brew経由で入れたgitのバージョンを確認。
+- brew経由で入れたGitのバージョンを確認。
   - `git --version`
 ```
 $ /usr/local/bin/git --version
@@ -525,7 +525,7 @@ git version 2.35.1
 ```
 
 
-## gitのセットアップ
+## Gitのセットアップ
 - 識別情報を設定
   - コミットに含まれることになる自分の情報をセット
   - `$ git config --global user.[属性] [設定したい値]`
@@ -568,7 +568,7 @@ alias.co=checkout
 - もしも意図した通り出なければ以下のコマンドで修正する
   - `$ git config --global --edit`
  
-## gitの使い方
+## Gitの使い方
 各種コマンドが何をするものか
 - git init 
   - レポジトリを初期化

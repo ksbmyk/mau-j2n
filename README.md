@@ -613,8 +613,8 @@ alias.co=checkout
 # GitHubアカウントの作成
 - https://github.com/join から作成できる
 - すでにアカウントを保持していたため新規作成は行っていない
-  - 個人開発や、大学の課題（プログラム・レポート管理）にも使っている
-  - 無料アカウントを複数作ることは[規約](https://docs.github.com/ja/site-policy/github-terms/github-terms-of-service)違反のためこの課題のための新規作成は行ない
+  - 個人開発や、大学の課題（プログラム・レポート管理）にも利用していた
+  - 無料アカウントを複数作ることは[規約](https://docs.github.com/ja/site-policy/github-terms/github-terms-of-service)違反のためこの課題のための新規作成は行なっていない
 
 # READMEの公開
 2022/04/08実施

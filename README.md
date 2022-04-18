@@ -777,7 +777,7 @@ To https://github.com/ksbmyk/mau-j2n.git
 
 # 参考
 ## webサイト
-[Git](http://git-scm.com/book/ja/v2
-[GItHub Docs](https://docs.github.com/ja)
+- [Git](http://git-scm.com/book/ja/v2)
+- [GItHub Docs](https://docs.github.com/ja)
 ## 書籍
-[GitHub実践入門](https://gihyo.jp/book/2014/978-4-7741-6366-6)
+- [GitHub実践入門](https://gihyo.jp/book/2014/978-4-7741-6366-6)

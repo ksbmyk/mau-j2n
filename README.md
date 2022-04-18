@@ -780,5 +780,7 @@ To https://github.com/ksbmyk/mau-j2n.git
 ## webサイト
 - [Git](http://git-scm.com/book/ja/v2)
 - [GItHub Docs](https://docs.github.com/ja)
+- [Markdown](https://daringfireball.net/projects/markdown/)
+- [日本語Markdownユーザー会](https://www.markdown.jp)
 ## 書籍
 - [GitHub実践入門](https://gihyo.jp/book/2014/978-4-7741-6366-6)
